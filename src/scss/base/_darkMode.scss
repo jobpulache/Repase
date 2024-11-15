@@ -20,6 +20,18 @@
     .texto-nosotros blockquote{
         color: $blanco;
     }
+    .formulario-contacto{
+        label, legend, p{
+            color: $blanco;
+        }
+        input:not([type="submit"]), 
+        textarea,
+         select{
+            background-color: $grisOscuro;
+            color: $blanco;
+            border: 1px, solid $grisOscuro;
+        }
+    }
 
 
 }
