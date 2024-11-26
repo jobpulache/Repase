@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienes raices- repase</title>
-    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="/build/css/app.css"> <!--Colocamos / para que le diga que en la raiz de ese proyecto existe una carpeta llamada build -->
 </head>
 
 <body>
     <header class="header <?php echo $inicio ? 'inicio' : ''   ?>">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/"> <img src="build/img/logo.svg" alt="Logo de Bienes raices"></a>
+                <a href="/"> <img src="/build/img/logo.svg" alt="Logo de Bienes raices"></a>
                 <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="Icon DarkMode">
+                    <img src="/build/img/barras.svg" alt="Icon MenuMobile">
                 </div>
                 <div class="derecha">
-                    <img class="dark-mode-boton" src="build/img/dark-mode.svg" alt="Icon DarkMoe">
+                    <img class="dark-mode-boton" src="/build/img/dark-mode.svg" alt="Icon DarkMoe">
                     <nav class="navegacion">
                         <a href="nosotros.php">Nosotros</a>
                         <a href="anuncios.php">Anuncios</a>

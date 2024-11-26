@@ -10,7 +10,7 @@
         <p class="copyright">&copy; Bienes raices 2024</a></p>
     </footer>
 
-    <script src="build/js/bundle.min.js"></script>
+    <script src="/build/js/bundle.min.js"></script> 
 </body>
 
 </html>

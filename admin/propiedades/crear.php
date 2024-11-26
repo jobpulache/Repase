@@ -1,5 +1,5 @@
 <?php
-require '../../includes/config/database.php';
+require '../../src/includes/config/database.php';
 $bd = conectBD(); //Lamado a la funcion
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo '<pre>';
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo 'Inserted correctly';
     }
 }
-require '../../includes/funciones.php';
+require '../../src/includes/funciones.php';
 incluirTemplate('header');
 ?>
 <main class="contenedor seccion">
